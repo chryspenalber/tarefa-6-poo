@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parquímetro Penalber</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section>
+        <h1>Parquímetro Penalber</h1>
+
+        <div>
+            <label for="valor-inserido">Insira valor (R$):</label>
+            <input type="number" name="valor-inserido" id="valor-inserido">
+
+        </div>
+        <button id="btn-calcula-estacionamento">Carregar</button>
+        <p id="informa-saldo">Saldo atual: R$0,00</p>
+        <table>
+            <colgroup>
+                <col style="width: 98px">
+                <col style="width: 186px">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th colspan="2">Tabela de Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Valor</td>
+                    <td>Tempo</td>
+                </tr>
+                <tr>
+                    <td>R$1,00</td>
+                    <td>30 minutos</td>
+                </tr>
+                <tr>
+                    <td>R$1,75</td>
+                    <td>60 minutos</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">R$3,00</td>
+                    <td rowspan="2">120 minutos <br><span>(tempo máximo permitido)</span></td>
+
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+<script src="scripts.js"></script>
+</body>
+
+</html>
