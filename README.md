@@ -1,4 +1,8 @@
+[Versão em Português](#portugues) | [English Version](#english)
 
+---
+
+<a id="portugues"></a>
 
 # 🅿️ Parquímetro Penalber | Desenvolvido por Chrys Penalber
 
@@ -71,6 +75,84 @@ Técnicas aplicadas:
 ---
 
 ## 👩‍💻 Autora
+
+* GitHub — [@chryspenalber](https://github.com/chryspenalber)
+* LinkedIn — [Chrystiana Penalber](https://www.linkedin.com/in/chrystiana-penalber/)
+
+---
+<a id="english"></a>
+
+# 🅿️ Penalber Parking Meter | Developed by Chrys Penalber
+
+This project is a practical assignment from the **Front-End Engineer course at EBAC**.
+The goal was to develop an **interactive parking meter simulator** using **HTML, CSS, and pure JavaScript**, applying concepts of **conditional logic, classes, and DOM manipulation**.
+
+---
+
+## 🔗 Links
+
+* 🔴 [Live Site](https://chryspenalber.github.io/tarefa-6-poo/)
+* 💻 [GitHub Repository](https://github.com/chryspenalber/tarefa-6-poo)
+
+---
+
+## 📐 Overview
+
+The project simulates the operation of a **digital parking meter**, allowing the user to enter a value in Brazilian reais and receive the **corresponding parking time**, along with **change** when the amount exceeds the required value.
+
+The interface features a price table and a simple, intuitive calculation button.
+
+### Features:
+
+* Input field for value in Brazilian reais (`R$`)
+* Automatic calculation of parking time
+* Change display when applicable
+* Error message for values below the minimum allowed
+* Fixed price table with 30, 60, and 120-minute options
+* Clean, centered, and responsive layout
+
+---
+
+## 🛠️ Technologies Used
+
+* **HTML5** — Semantic structure of the page
+* **CSS3 with variables and flexbox** — Modern and responsive styling
+* **JavaScript (ES6)** — Logic implementation and DOM manipulation
+* **JavaScript Classes** — Object-oriented approach with constructors and methods
+
+---
+
+## 📲 Responsiveness
+
+The interface was designed to adapt to various screen sizes, ensuring a smooth experience on both **desktop** and **mobile** devices.
+
+Techniques applied:
+
+* Centered layout using `flexbox`
+* Proportional fonts and spacing
+* Layout adjustments with `@media (max-width: 600px)`
+
+---
+
+## 💡 Key Concepts Explored
+
+* Implementation of **classes and methods** in JavaScript
+* Use of **conditional structures (`if`, `else if`, `else`)**
+* Data conversion and formatting with `parseFloat()` and `toFixed()`
+* DOM manipulation with `getElementById()` and `addEventListener()`
+* Clear separation of structure (HTML), style (CSS), and behavior (JS)
+
+---
+
+## 📚 Useful Resources
+
+* [MDN Web Docs — JavaScript Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+* [MDN Web Docs — EventTarget.addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+* [W3Schools — CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
+
+---
+
+## 👩‍💻 Author
 
 * GitHub — [@chryspenalber](https://github.com/chryspenalber)
 * LinkedIn — [Chrystiana Penalber](https://www.linkedin.com/in/chrystiana-penalber/)
